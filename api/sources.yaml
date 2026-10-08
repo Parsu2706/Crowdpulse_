@@ -1,0 +1,116 @@
+# CrowdPulse sources. Edit freely - no code changes needed.
+# Each feed needs: topic, source_name, url.  Restart the API after editing.
+# Point SOURCES_FILE (env) at another file to override this one.
+
+rss_feeds:
+  - topic: world
+    source_name: "BBC News"
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+  - topic: world
+    source_name: "Al Jazeera"
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
+  - topic: world
+    source_name: "The Guardian World"
+    url: "https://www.theguardian.com/world/rss"
+  - topic: world
+    source_name: "NPR World"
+    url: "https://feeds.npr.org/1004/rss.xml"
+  - topic: world
+    source_name: "DW News"
+    url: "https://rss.dw.com/rdf/rss-en-all"
+  - topic: world
+    source_name: "Times of India World"
+    url: "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms"
+
+  - topic: us_politics
+    source_name: "BBC US & Canada"
+    url: "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+  - topic: us_politics
+    source_name: "The Guardian US Politics"
+    url: "https://www.theguardian.com/us-news/us-politics/rss"
+  - topic: us_politics
+    source_name: "NPR Politics"
+    url: "https://feeds.npr.org/1014/rss.xml"
+
+  - topic: uk_politics
+    source_name: "BBC UK Politics"
+    url: "http://feeds.bbci.co.uk/news/politics/rss.xml"
+
+  - topic: middle_east
+    source_name: "BBC Middle East"
+    url: "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
+
+  - topic: economy
+    source_name: "BBC Business"
+    url: "http://feeds.bbci.co.uk/news/business/rss.xml"
+  - topic: economy
+    source_name: "The Guardian Business"
+    url: "https://www.theguardian.com/uk/business/rss"
+  - topic: economy
+    source_name: "NPR Business"
+    url: "https://feeds.npr.org/1006/rss.xml"
+  - topic: economy
+    source_name: "CNBC World"
+    url: "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+
+  - topic: technology
+    source_name: "BBC Technology"
+    url: "http://feeds.bbci.co.uk/news/technology/rss.xml"
+  - topic: technology
+    source_name: "The Guardian Technology"
+    url: "https://www.theguardian.com/uk/technology/rss"
+  - topic: technology
+    source_name: "NPR Technology"
+    url: "https://feeds.npr.org/1019/rss.xml"
+
+  - topic: asia
+    source_name: "BBC Asia"
+    url: "http://feeds.bbci.co.uk/news/world/asia/rss.xml"
+
+  - topic: india
+    source_name: "The Hindu"
+    url: "https://www.thehindu.com/news/national/feeder/default.rss"
+  - topic: india
+    source_name: "Times of India India"
+    url: "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"
+  - topic: india
+    source_name: "Hindustan Times India"
+    url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"
+
+  - topic: climate
+    source_name: "The Guardian Environment"
+    url: "https://www.theguardian.com/environment/rss"
+  - topic: climate
+    source_name: "BBC Science & Environment"
+    url: "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+
+  - topic: health
+    source_name: "NPR Health"
+    url: "https://feeds.npr.org/1128/rss.xml"
+  - topic: health
+    source_name: "BBC Health"
+    url: "http://feeds.bbci.co.uk/news/health/rss.xml"
+
+  - topic: entertainment
+    source_name: "BBC Entertainment & Arts"
+    url: "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"
+
+  - topic: education
+    source_name: "BBC Education"
+    url: "http://feeds.bbci.co.uk/news/education/rss.xml"
+
+  - topic: science
+    source_name: "The Guardian Science"
+    url: "https://www.theguardian.com/science/rss"
+
+subreddits:
+  - worldnews
+  - geopolitics
+  - economy
+  - technology
+  - indiaNews
+  - politics
+  - news
+  - conspiracy
+  - upliftingnews
+  - neutralnews

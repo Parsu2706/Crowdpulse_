@@ -36,7 +36,7 @@ FastAPI · Streamlit · Plotly · feedparser · PRAW · Hugging Face Transformer
 You need Python 3.11+, [Reddit API credentials](https://www.reddit.com/prefs/apps) (script app), and optionally a [Groq API key](https://console.groq.com/keys).
 
 ```bash
-git clone https://github.com/<your-username>/crowdpulse.git
+git clone https://github.com/Parsu2706/Crowdpulse_.git
 cd crowdpulse
 cp .env.example .env        # add your keys
 ```
